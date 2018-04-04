@@ -70,7 +70,7 @@ laag:
 	mov TH1, #-170d
 	mov TL1, #-170d
 
-ISR_TR1:  ; moeje ni her instellen want autoreload staat aan, blijft die shit doen
+ISR_TR1:  ; moeje ni her instellen want autoreload staat aan, blijft dat doen
 	cpl P1.7
 	reti
 
