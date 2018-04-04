@@ -22,7 +22,7 @@ main:
 	; A * 64
 	multiply:;per cycle macht 2 hoger
 		rlc A;147 naar links rotaten
-		push ACC;gedraaide shit op acc pushen
+		push ACC;gedraaide stuff op acc pushen
 		mov A, B;b in A steken
 		rlc A;B draaien via A; carry bit komt nu helemaal rechts bij B te staan, dus ge hebt 16 bit shizzle
 		mov B, A;B terug op zen plek zetten
